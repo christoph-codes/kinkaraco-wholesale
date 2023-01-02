@@ -1,28 +1,28 @@
 {
   "current": {
-    "colors_solid_button_labels": "#fcfcfc",
-    "colors_accent_1": "#103948",
+    "colors_solid_button_labels": "#fff9f9",
+    "colors_accent_1": "#3d290a",
     "gradient_accent_1": "",
-    "colors_accent_2": "#103948",
+    "colors_accent_2": "#ecc684",
     "gradient_accent_2": "",
-    "colors_text": "#103948",
-    "colors_outline_button_labels": "#052c46",
-    "colors_background_1": "#fcfcfc",
+    "colors_text": "#3d290a",
+    "colors_outline_button_labels": "#3d290a",
+    "colors_background_1": "#fff",
     "gradient_background_1": "",
-    "colors_background_2": "#ebeced",
+    "colors_background_2": "#fff9f9",
     "gradient_background_2": "",
-    "type_header_font": "electra_n4",
+    "type_header_font": "amiri_n4",
     "heading_scale": 105,
-    "type_body_font": "electra_n4",
-    "body_scale": 105,
+    "type_body_font": "amiri_n4",
+    "body_scale": 130,
     "page_width": 1200,
-    "spacing_sections": 0,
-    "spacing_grid_horizontal": 40,
-    "spacing_grid_vertical": 40,
-    "buttons_border_thickness": 1,
+    "spacing_sections": 32,
+    "spacing_grid_horizontal": 32,
+    "spacing_grid_vertical": 32,
+    "buttons_border_thickness": 0,
     "buttons_border_opacity": 100,
     "buttons_radius": 40,
-    "buttons_shadow_opacity": 10,
+    "buttons_shadow_opacity": 0,
     "buttons_shadow_horizontal_offset": 2,
     "buttons_shadow_vertical_offset": 2,
     "buttons_shadow_blur": 5,
@@ -107,7 +107,7 @@
           "announcement-bar-0": {
             "type": "announcement",
             "settings": {
-              "text": "Welcome to our store",
+              "text": "Welcome to the KINKARACO® Wholesale Portal",
               "color_scheme": "background-2",
               "link": ""
             }
@@ -142,7 +142,7 @@
             "type": "link_list",
             "settings": {
               "heading": "Shop",
-              "menu": "footer"
+              "menu": "main-menu"
             }
           },
           "link-list-1": {
@@ -152,30 +152,22 @@
               "menu": "footer"
             }
           },
-          "image": {
-            "type": "image",
-            "settings": {
-              "image_width": 100,
-              "alignment": "right"
-            }
-          },
           "text": {
             "type": "text",
             "settings": {
               "heading": "Our mission",
-              "subtext": "<p>Share contact information, store details, and brand content with your customers.<\/p>"
+              "subtext": "<p>Preserving our Earth's natural resources, our communities, and our economy while best cherishing you and your loved ones.<\/p>"
             }
           }
         },
         "block_order": [
           "link-list",
           "link-list-1",
-          "image",
           "text"
         ],
         "settings": {
           "color_scheme": "background-2",
-          "newsletter_enable": true,
+          "newsletter_enable": false,
           "newsletter_heading": "Subscribe to our emails",
           "show_social": true,
           "enable_country_selector": false,
@@ -183,7 +175,7 @@
           "payment_enable": true,
           "margin_top": 0,
           "padding_top": 44,
-          "padding_bottom": 32
+          "padding_bottom": 20
         }
       },
       "main-password-header": {
@@ -200,7 +192,10 @@
           "color_scheme": "background-1"
         }
       }
-    }
+    },
+    "content_for_index": [
+
+    ]
   },
   "presets": {
     "Default": {

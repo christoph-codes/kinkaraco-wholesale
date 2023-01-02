@@ -2,6 +2,7 @@
   "sections": {
     "rich-text": {
       "type": "rich-text",
+      "disabled": true,
       "blocks": {
         "heading": {
           "type": "heading",
@@ -23,98 +24,44 @@
         "padding_bottom": 52
       }
     },
-    "slideshow": {
-      "type": "slideshow",
+    "e6d5f20b-8639-4457-83cd-8f07af65deb0": {
+      "type": "collection-list",
       "blocks": {
-        "slide-0": {
-          "type": "slide",
+        "template--15525359059082__e6d5f20b-8639-4457-83cd-8f07af65deb0-1669089193748aa6cf-0": {
+          "type": "featured_collection",
           "settings": {
-            "image": "{{ shop.brand.cover_image }}",
-            "heading": "",
-            "heading_size": "medium",
-            "subheading": "",
-            "button_label": "",
-            "link": "",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": false,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "background-1",
-            "text_alignment_mobile": "center"
+            "collection": "green-burial"
           }
         },
-        "slide-1": {
-          "type": "slide",
+        "template--15525359059082__e6d5f20b-8639-4457-83cd-8f07af65deb0-1669089193748aa6cf-1": {
+          "type": "featured_collection",
           "settings": {
-            "heading": "",
-            "heading_size": "medium",
-            "subheading": "",
-            "button_label": "",
-            "link": "",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": false,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "background-1",
-            "text_alignment_mobile": "center"
+            "collection": "cremation"
           }
         },
-        "slide-2": {
-          "type": "slide",
+        "template--15525359059082__e6d5f20b-8639-4457-83cd-8f07af65deb0-1669089193748aa6cf-2": {
+          "type": "featured_collection",
           "settings": {
-            "heading": "",
-            "heading_size": "medium",
-            "subheading": "",
-            "button_label": "",
-            "link": "",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": false,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "background-1",
-            "text_alignment_mobile": "center"
+            "collection": "aroma-death-care"
           }
         }
       },
       "block_order": [
-        "slide-0",
-        "slide-1",
-        "slide-2"
+        "template--15525359059082__e6d5f20b-8639-4457-83cd-8f07af65deb0-1669089193748aa6cf-0",
+        "template--15525359059082__e6d5f20b-8639-4457-83cd-8f07af65deb0-1669089193748aa6cf-1",
+        "template--15525359059082__e6d5f20b-8639-4457-83cd-8f07af65deb0-1669089193748aa6cf-2"
       ],
       "settings": {
-        "layout": "grid",
-        "slide_height": "small",
-        "slider_visual": "dots",
-        "auto_rotate": true,
-        "change_slides_speed": 3,
-        "show_text_below": false,
-        "accessibility_info": "Slideshow about our brand."
-      }
-    },
-    "rich-text-1": {
-      "type": "rich-text",
-      "blocks": {
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "heading": "<p>Featured collection<\/p>",
-            "heading_size": "h2"
-          }
-        }
-      },
-      "block_order": [
-        "heading"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
+        "title": "",
+        "heading_size": "h1",
+        "image_ratio": "square",
+        "columns_desktop": 3,
         "color_scheme": "background-1",
-        "full_width": false,
-        "padding_top": 56,
-        "padding_bottom": 0
+        "show_view_all": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "featured-collection": {
@@ -125,169 +72,28 @@
         "description": "",
         "show_description": false,
         "description_style": "body",
-        "collection": "all",
-        "products_to_show": 3,
-        "columns_desktop": 3,
+        "collection": "frontpage",
+        "products_to_show": 12,
+        "columns_desktop": 4,
         "full_width": false,
-        "show_view_all": false,
+        "show_view_all": true,
         "view_all_style": "solid",
         "enable_desktop_slider": false,
         "color_scheme": "background-1",
         "image_ratio": "portrait",
         "show_secondary_image": true,
         "show_vendor": true,
-        "show_rating": false,
+        "show_rating": true,
         "enable_quick_add": false,
         "columns_mobile": "2",
         "swipe_on_mobile": true,
         "padding_top": 28,
         "padding_bottom": 0
-      }
-    },
-    "image-with-text": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "heading": "Share something unique about your brand",
-            "heading_size": "h1"
-          }
-        }
-      },
-      "block_order": [
-        "heading"
-      ],
-      "settings": {
-        "height": "small",
-        "desktop_image_width": "small",
-        "layout": "text_first",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "color_scheme": "accent-2",
-        "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 0
-      }
-    },
-    "image-with-text-1": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "heading": "Introduce a collection",
-            "heading_size": "h2"
-          }
-        },
-        "button": {
-          "type": "button",
-          "settings": {
-            "button_label": "Shop",
-            "button_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "heading",
-        "button"
-      ],
-      "settings": {
-        "height": "adapt",
-        "desktop_image_width": "large",
-        "layout": "image_first",
-        "desktop_content_position": "bottom",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "color_scheme": "accent-2",
-        "mobile_content_alignment": "left",
-        "padding_top": 0,
-        "padding_bottom": 52
-      }
-    },
-    "rich-text-2": {
-      "type": "rich-text",
-      "blocks": {
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "heading": "<p>Featured collection<\/p>",
-            "heading_size": "h2"
-          }
-        }
-      },
-      "block_order": [
-        "heading"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "background-1",
-        "full_width": true,
-        "padding_top": 28,
-        "padding_bottom": 12
-      }
-    },
-    "featured-collection-1": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "",
-        "heading_size": "h1",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "all",
-        "products_to_show": 3,
-        "columns_desktop": 3,
-        "full_width": false,
-        "show_view_all": false,
-        "view_all_style": "solid",
-        "enable_desktop_slider": false,
-        "color_scheme": "background-1",
-        "image_ratio": "portrait",
-        "show_secondary_image": true,
-        "show_vendor": true,
-        "show_rating": false,
-        "enable_quick_add": false,
-        "columns_mobile": "2",
-        "swipe_on_mobile": true,
-        "padding_top": 12,
-        "padding_bottom": 32
-      }
-    },
-    "rich-text-3": {
-      "type": "rich-text",
-      "blocks": {
-        "text": {
-          "type": "text",
-          "settings": {
-            "text": "<p>SHOP BY ARTIST<\/p>"
-          }
-        },
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "heading": "<p>Talk about your collections<\/p>",
-            "heading_size": "h1"
-          }
-        }
-      },
-      "block_order": [
-        "text",
-        "heading"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "accent-1",
-        "full_width": true,
-        "padding_top": 84,
-        "padding_bottom": 84
       }
     },
     "collection-list": {
       "type": "collection-list",
+      "disabled": true,
       "blocks": {
         "collection-0": {
           "type": "featured_collection",
@@ -333,41 +139,9 @@
         "padding_bottom": 68
       }
     },
-    "multicolumn": {
-      "type": "multicolumn",
-      "blocks": {
-        "column": {
-          "type": "column",
-          "settings": {
-            "title": "Add an image",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "column"
-      ],
-      "settings": {
-        "title": "",
-        "heading_size": "h1",
-        "image_width": "half",
-        "image_ratio": "adapt",
-        "columns_desktop": 1,
-        "column_alignment": "center",
-        "background_style": "none",
-        "button_label": "",
-        "button_link": "",
-        "color_scheme": "background-1",
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 68,
-        "padding_bottom": 0
-      }
-    },
     "newslettter": {
       "type": "newsletter",
+      "disabled": true,
       "blocks": {
         "heading": {
           "type": "heading",
@@ -402,6 +176,7 @@
     },
     "image-with-text-2": {
       "type": "image-with-text",
+      "disabled": true,
       "blocks": {
         "heading": {
           "type": "heading",
@@ -432,6 +207,7 @@
         "button"
       ],
       "settings": {
+        "image": "shopify:\/\/shop_images\/Screenshot_2022-11-21_at_11.32.15_AM.png",
         "height": "adapt",
         "desktop_image_width": "small",
         "layout": "image_first",
@@ -441,23 +217,47 @@
         "color_scheme": "accent-1",
         "mobile_content_alignment": "left",
         "padding_top": 0,
-        "padding_bottom": 76
+        "padding_bottom": 0
+      }
+    },
+    "6f86f54a-d3e2-4937-8563-8a34a930ba18": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15525359059082__6f86f54a-d3e2-4937-8563-8a34a930ba18-16690595820d0abb3a-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>KINKARACO®<\/p>",
+            "heading_size": "h2"
+          }
+        },
+        "template--15525359059082__6f86f54a-d3e2-4937-8563-8a34a930ba18-16690595820d0abb3a-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Kinkaraco® is devoted to the Sacred - preserving our Earth's natural resources, our communities, and our economy while best cherishing you and your loved ones.<\/p><p><\/p><p>We hope you find everything you need here to help you when the time comes.......<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15525359059082__6f86f54a-d3e2-4937-8563-8a34a930ba18-16690595820d0abb3a-0",
+        "template--15525359059082__6f86f54a-d3e2-4937-8563-8a34a930ba18-16690595820d0abb3a-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-2",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
       }
     }
   },
   "order": [
     "rich-text",
-    "slideshow",
-    "rich-text-1",
+    "e6d5f20b-8639-4457-83cd-8f07af65deb0",
     "featured-collection",
-    "image-with-text",
-    "image-with-text-1",
-    "rich-text-2",
-    "featured-collection-1",
-    "rich-text-3",
     "collection-list",
-    "multicolumn",
     "newslettter",
-    "image-with-text-2"
+    "image-with-text-2",
+    "6f86f54a-d3e2-4937-8563-8a34a930ba18"
   ]
 }
