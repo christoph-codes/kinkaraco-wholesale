@@ -220,8 +220,14 @@
     </script>
   </head>
 
+  <script>
+    if(window.location.hostname === 'localhost') {
+    	{% assign isAdmin = true %}
+    }
+  </script>
+
   {% unless customer %}
-    {% if template contains 'customers' or request.path == '/challenge' %}
+    {% if template contains 'customers' or request.path == '/challenge' or isAdmin %}
       {% assign send_to_login = false %}
     {% else %}
       {% assign send_to_login = true %}
