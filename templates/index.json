@@ -39,6 +39,12 @@
             "collection": "cremation"
           }
         },
+        "348b3fb4-151b-45f0-b96a-53395bdf6e1f": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "mort-couture™"
+          }
+        },
         "template--15525359059082__e6d5f20b-8639-4457-83cd-8f07af65deb0-1669089193748aa6cf-2": {
           "type": "featured_collection",
           "settings": {
@@ -49,13 +55,14 @@
       "block_order": [
         "template--15525359059082__e6d5f20b-8639-4457-83cd-8f07af65deb0-1669089193748aa6cf-0",
         "template--15525359059082__e6d5f20b-8639-4457-83cd-8f07af65deb0-1669089193748aa6cf-1",
+        "348b3fb4-151b-45f0-b96a-53395bdf6e1f",
         "template--15525359059082__e6d5f20b-8639-4457-83cd-8f07af65deb0-1669089193748aa6cf-2"
       ],
       "settings": {
-        "title": "",
+        "title": "Collections",
         "heading_size": "h1",
         "image_ratio": "square",
-        "columns_desktop": 3,
+        "columns_desktop": 4,
         "color_scheme": "background-1",
         "show_view_all": false,
         "columns_mobile": "1",
@@ -66,6 +73,7 @@
     },
     "featured-collection": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "title": "",
         "heading_size": "h1",
