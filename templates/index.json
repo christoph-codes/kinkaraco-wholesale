@@ -1,51 +1,27 @@
 {
   "sections": {
-    "rich-text": {
-      "type": "rich-text",
-      "disabled": true,
-      "blocks": {
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "heading": "<p>Introduce your brand<\/p>",
-            "heading_size": "h1"
-          }
-        }
-      },
-      "block_order": [
-        "heading"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "background-1",
-        "full_width": true,
-        "padding_top": 20,
-        "padding_bottom": 52
-      }
-    },
-    "e6d5f20b-8639-4457-83cd-8f07af65deb0": {
+    "a7d6e7e0-7a86-46b6-a1b0-6c9768d54117": {
       "type": "collection-list",
       "blocks": {
-        "template--15525359059082__e6d5f20b-8639-4457-83cd-8f07af65deb0-1669089193748aa6cf-0": {
+        "template--15525359059082__a7d6e7e0-7a86-46b6-a1b0-6c9768d54117-1672941510c211acde-0": {
           "type": "featured_collection",
           "settings": {
             "collection": "green-burial"
           }
         },
-        "template--15525359059082__e6d5f20b-8639-4457-83cd-8f07af65deb0-1669089193748aa6cf-1": {
+        "template--15525359059082__a7d6e7e0-7a86-46b6-a1b0-6c9768d54117-1672941510c211acde-1": {
           "type": "featured_collection",
           "settings": {
             "collection": "cremation"
           }
         },
-        "348b3fb4-151b-45f0-b96a-53395bdf6e1f": {
+        "template--15525359059082__a7d6e7e0-7a86-46b6-a1b0-6c9768d54117-1672941510c211acde-2": {
           "type": "featured_collection",
           "settings": {
             "collection": "mort-couture™"
           }
         },
-        "template--15525359059082__e6d5f20b-8639-4457-83cd-8f07af65deb0-1669089193748aa6cf-2": {
+        "9ef460dd-624b-4fc9-bf5b-92d84af2afb9": {
           "type": "featured_collection",
           "settings": {
             "collection": "aroma-death-care"
@@ -53,10 +29,10 @@
         }
       },
       "block_order": [
-        "template--15525359059082__e6d5f20b-8639-4457-83cd-8f07af65deb0-1669089193748aa6cf-0",
-        "template--15525359059082__e6d5f20b-8639-4457-83cd-8f07af65deb0-1669089193748aa6cf-1",
-        "348b3fb4-151b-45f0-b96a-53395bdf6e1f",
-        "template--15525359059082__e6d5f20b-8639-4457-83cd-8f07af65deb0-1669089193748aa6cf-2"
+        "template--15525359059082__a7d6e7e0-7a86-46b6-a1b0-6c9768d54117-1672941510c211acde-0",
+        "template--15525359059082__a7d6e7e0-7a86-46b6-a1b0-6c9768d54117-1672941510c211acde-1",
+        "template--15525359059082__a7d6e7e0-7a86-46b6-a1b0-6c9768d54117-1672941510c211acde-2",
+        "9ef460dd-624b-4fc9-bf5b-92d84af2afb9"
       ],
       "settings": {
         "title": "Collections",
@@ -68,186 +44,48 @@
         "columns_mobile": "1",
         "swipe_on_mobile": false,
         "padding_top": 36,
-        "padding_bottom": 36
+        "padding_bottom": 16
       }
     },
-    "featured-collection": {
-      "type": "featured-collection",
-      "disabled": true,
-      "settings": {
-        "title": "",
-        "heading_size": "h1",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "frontpage",
-        "products_to_show": 12,
-        "columns_desktop": 4,
-        "full_width": false,
-        "show_view_all": true,
-        "view_all_style": "solid",
-        "enable_desktop_slider": false,
-        "color_scheme": "background-1",
-        "image_ratio": "portrait",
-        "show_secondary_image": true,
-        "show_vendor": true,
-        "show_rating": true,
-        "enable_quick_add": false,
-        "columns_mobile": "2",
-        "swipe_on_mobile": true,
-        "padding_top": 28,
-        "padding_bottom": 0
-      }
-    },
-    "collection-list": {
-      "type": "collection-list",
-      "disabled": true,
-      "blocks": {
-        "collection-0": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": ""
-          }
-        },
-        "collection-1": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": ""
-          }
-        },
-        "collection-2": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": ""
-          }
-        },
-        "collection-3": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": ""
-          }
-        }
-      },
-      "block_order": [
-        "collection-0",
-        "collection-1",
-        "collection-2",
-        "collection-3"
-      ],
-      "settings": {
-        "title": "",
-        "heading_size": "h1",
-        "image_ratio": "square",
-        "columns_desktop": 2,
-        "color_scheme": "accent-1",
-        "show_view_all": false,
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 0,
-        "padding_bottom": 68
-      }
-    },
-    "newslettter": {
-      "type": "newsletter",
-      "disabled": true,
-      "blocks": {
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "heading": "Be the first to know",
-            "heading_size": "h1"
-          }
-        },
-        "paragraph": {
-          "type": "paragraph",
-          "settings": {
-            "text": "<p>Join our email list to learn about exclusive showings and new collections.<\/p>"
-          }
-        },
-        "form": {
-          "type": "email_form",
-          "settings": {
-          }
-        }
-      },
-      "block_order": [
-        "heading",
-        "paragraph",
-        "form"
-      ],
-      "settings": {
-        "color_scheme": "background-1",
-        "full_width": true,
-        "padding_top": 12,
-        "padding_bottom": 84
-      }
-    },
-    "image-with-text-2": {
-      "type": "image-with-text",
-      "disabled": true,
-      "blocks": {
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "heading": "Share a quote from your brand's founder or highlight a customer review",
-            "heading_size": "h2"
-          }
-        },
-        "caption": {
-          "type": "caption",
-          "settings": {
-            "caption": "ATTRIBUTE YOUR QUOTE OR REVIEW",
-            "text_style": "caption-with-letter-spacing",
-            "text_size": "medium"
-          }
-        },
-        "button": {
-          "type": "button",
-          "settings": {
-            "button_label": "Read more",
-            "button_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "heading",
-        "caption",
-        "button"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/Screenshot_2022-11-21_at_11.32.15_AM.png",
-        "height": "adapt",
-        "desktop_image_width": "small",
-        "layout": "image_first",
-        "desktop_content_position": "bottom",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "color_scheme": "accent-1",
-        "mobile_content_alignment": "left",
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
-    "6f86f54a-d3e2-4937-8563-8a34a930ba18": {
+    "0ee7429c-8c3f-424a-adb1-8ff3437aa3a4": {
       "type": "rich-text",
       "blocks": {
-        "template--15525359059082__6f86f54a-d3e2-4937-8563-8a34a930ba18-16690595820d0abb3a-0": {
-          "type": "heading",
+        "template--15525359059082__0ee7429c-8c3f-424a-adb1-8ff3437aa3a4-16729443639d366dee-2": {
+          "type": "button",
           "settings": {
-            "heading": "<p>KINKARACO®<\/p>",
-            "heading_size": "h2"
-          }
-        },
-        "template--15525359059082__6f86f54a-d3e2-4937-8563-8a34a930ba18-16690595820d0abb3a-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Kinkaraco® is devoted to the Sacred - preserving our Earth's natural resources, our communities, and our economy while best cherishing you and your loved ones.<\/p><p><\/p><p>We hope you find everything you need here to help you when the time comes.......<\/p>"
+            "button_label": "View All Products",
+            "button_link": "shopify:\/\/collections\/all",
+            "button_style_secondary": false,
+            "button_label_2": "Why KINKARACO™",
+            "button_link_2": "shopify:\/\/pages\/why-kinkaraco",
+            "button_style_secondary_2": true
           }
         }
       },
       "block_order": [
-        "template--15525359059082__6f86f54a-d3e2-4937-8563-8a34a930ba18-16690595820d0abb3a-0",
-        "template--15525359059082__6f86f54a-d3e2-4937-8563-8a34a930ba18-16690595820d0abb3a-1"
+        "template--15525359059082__0ee7429c-8c3f-424a-adb1-8ff3437aa3a4-16729443639d366dee-2"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 52
+      }
+    },
+    "37c59c45-5331-4794-b5b1-416de94b81b1": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15525359059082__37c59c45-5331-4794-b5b1-416de94b81b1-16729443639d366dee-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>KINKARACO ® is a Woman owned design company offering high quality products that people want and that funeral professionals trust. Here the people always come first. We go the extra mile to get you what you want at a reasonable price, delivered right on time when you need it for over 18 years.<\/p><p>We are here honored to serve you…<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15525359059082__37c59c45-5331-4794-b5b1-416de94b81b1-16729443639d366dee-1"
       ],
       "settings": {
         "desktop_content_position": "center",
@@ -255,17 +93,13 @@
         "color_scheme": "background-2",
         "full_width": true,
         "padding_top": 40,
-        "padding_bottom": 52
+        "padding_bottom": 0
       }
     }
   },
   "order": [
-    "rich-text",
-    "e6d5f20b-8639-4457-83cd-8f07af65deb0",
-    "featured-collection",
-    "collection-list",
-    "newslettter",
-    "image-with-text-2",
-    "6f86f54a-d3e2-4937-8563-8a34a930ba18"
+    "a7d6e7e0-7a86-46b6-a1b0-6c9768d54117",
+    "0ee7429c-8c3f-424a-adb1-8ff3437aa3a4",
+    "37c59c45-5331-4794-b5b1-416de94b81b1"
   ]
 }
