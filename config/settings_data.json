@@ -156,7 +156,7 @@
             "type": "text",
             "settings": {
               "heading": "Our mission",
-              "subtext": "<p>Preserving our Earth's natural resources, our communities, and our economy while best cherishing you and your loved ones.<\/p>"
+              "subtext": "<p>From our line of all purpose shrouds to our Kinkara-Kart™  handmade American 19th Century repro off-road cemetery caissons, KINKARACO ® creates products that people connect with traditionally while completely changing the aesthetic of 21st Century funerals from something hard, dark and somber to something light, modern  and fragrant, “More like a wedding than a funeral”.<\/p><p>A change that has inspired Grace.<\/p>"
             }
           }
         },
@@ -190,6 +190,16 @@
         "type": "main-password-footer",
         "settings": {
           "color_scheme": "background-1"
+        }
+      },
+      "wholesale-contact-form": {
+        "type": "wholesale-contact-form",
+        "settings": {
+          "heading": "Contact form",
+          "heading_size": "h1",
+          "color_scheme": "background-1",
+          "padding_top": 36,
+          "padding_bottom": 36
         }
       }
     },
