@@ -54,11 +54,34 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "4d040f29-670d-4543-9cf8-dbddce030936": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15525358469258__4d040f29-670d-4543-9cf8-dbddce030936-167347850392f1c470-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>KINKARACO ® is a Woman owned design company offering high quality products that people want and that funeral professionals trust. Here the people always come first. We go the extra mile to get you what you want at a reasonable price, delivered right on time when you need it for over 18 years.<\/p><p>We are here honored to serve you…<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15525358469258__4d040f29-670d-4543-9cf8-dbddce030936-167347850392f1c470-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-2",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 0
+      }
     }
   },
   "order": [
     "cart-items",
     "cart-footer",
-    "featured-collection"
+    "featured-collection",
+    "4d040f29-670d-4543-9cf8-dbddce030936"
   ]
 }

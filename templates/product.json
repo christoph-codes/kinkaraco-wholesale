@@ -15,6 +15,13 @@
           "settings": {
           }
         },
+        "0482ef89-a39f-4458-bf2b-150cc6c2d591": {
+          "type": "text",
+          "settings": {
+            "text": "{{ product.metafields.descriptors.subtitle.value }}",
+            "text_style": "body"
+          }
+        },
         "caption": {
           "type": "text",
           "settings": {
@@ -59,6 +66,7 @@
       "block_order": [
         "vendor",
         "title",
+        "0482ef89-a39f-4458-bf2b-150cc6c2d591",
         "caption",
         "price",
         "variant_picker",
@@ -69,8 +77,8 @@
       ],
       "settings": {
         "enable_sticky_info": true,
-        "gallery_layout": "stacked",
-        "media_size": "large",
+        "gallery_layout": "thumbnail_slider",
+        "media_size": "small",
         "mobile_thumbnails": "hide",
         "hide_variants": true,
         "enable_video_looping": false,
@@ -137,11 +145,34 @@
         "padding_top": 0,
         "padding_bottom": 0
       }
+    },
+    "67d6ca51-0e97-490a-8817-57fcbc11c8ec": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15525358960778__67d6ca51-0e97-490a-8817-57fcbc11c8ec-16734783803a58eb19-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>KINKARACO ® is a Woman owned design company offering high quality products that people want and that funeral professionals trust. Here the people always come first. We go the extra mile to get you what you want at a reasonable price, delivered right on time when you need it for over 18 years.<\/p><p>We are here honored to serve you…<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15525358960778__67d6ca51-0e97-490a-8817-57fcbc11c8ec-16734783803a58eb19-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-2",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 0
+      }
     }
   },
   "order": [
     "main",
     "multicolumn",
-    "product-recommendations"
+    "product-recommendations",
+    "67d6ca51-0e97-490a-8817-57fcbc11c8ec"
   ]
 }

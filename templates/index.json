@@ -21,6 +21,12 @@
             "collection": "mort-couture™"
           }
         },
+        "f33e5a20-8a29-4e5f-9b48-c3ef1b7e1c3c": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "transporation"
+          }
+        },
         "9ef460dd-624b-4fc9-bf5b-92d84af2afb9": {
           "type": "featured_collection",
           "settings": {
@@ -32,13 +38,14 @@
         "template--15525359059082__a7d6e7e0-7a86-46b6-a1b0-6c9768d54117-1672941510c211acde-0",
         "template--15525359059082__a7d6e7e0-7a86-46b6-a1b0-6c9768d54117-1672941510c211acde-1",
         "template--15525359059082__a7d6e7e0-7a86-46b6-a1b0-6c9768d54117-1672941510c211acde-2",
+        "f33e5a20-8a29-4e5f-9b48-c3ef1b7e1c3c",
         "9ef460dd-624b-4fc9-bf5b-92d84af2afb9"
       ],
       "settings": {
         "title": "Collections",
         "heading_size": "h1",
         "image_ratio": "square",
-        "columns_desktop": 4,
+        "columns_desktop": 3,
         "color_scheme": "background-1",
         "show_view_all": false,
         "columns_mobile": "1",
