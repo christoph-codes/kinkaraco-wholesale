@@ -107,6 +107,7 @@
         "blocks": {
           "announcement-bar-0": {
             "type": "announcement",
+            "disabled": true,
             "settings": {
               "text": "Welcome to the KINKARACO® Wholesale Portal",
               "color_scheme": "background-2",
@@ -157,7 +158,7 @@
             "type": "text",
             "settings": {
               "heading": "Our mission",
-              "subtext": "<p>From our line of all purpose shrouds to our Kinkara-Kart™  handmade American 19th Century repro off-road cemetery caissons, KINKARACO ® creates products that people connect with traditionally while completely changing the aesthetic of 21st Century funerals from something hard, dark and somber to something light, modern  and fragrant, “More like a wedding than a funeral”.<\/p><p>A change that has inspired Grace.<\/p>"
+              "subtext": "<p> KINKARACO ® is committed to creating stunning practical  products that people connect with traditionally as well as spiritually. From Mort Couture™ all purpose Shroud Products to Aroma Deathcare™ to our KINKARA-KART™ (repro) 19th C off-road cemetery caissons we are dedicated to completely changing the aesthetic of 21st Century funerals from something previously hard, dark and somber to something light, modern  and fragrant.<\/p><p> “More like a wedding than a funeral”. (a customer)<\/p><p>This  change that has inspired Grace and creates closure.<\/p>"
             }
           }
         },
