@@ -110,21 +110,11 @@
         "padding_top": 0,
         "padding_bottom": 52
       }
-    },
-    "6ab81d26-9084-4a8d-a360-5cebc8c54851": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "<div style=\"text-align: center;\"><img style=\"max-width: 100%;\" src=\"{{ 'ES_copy.webp' | asset_url }}\" alt=\"Tag Line\" \/><\/div>",
-        "color_scheme": "background-2",
-        "padding_top": 32,
-        "padding_bottom": 0
-      }
     }
   },
   "order": [
     "db4f69b2-fa49-4ded-b417-1d5b2c4e8a6b",
     "a7d6e7e0-7a86-46b6-a1b0-6c9768d54117",
-    "0ee7429c-8c3f-424a-adb1-8ff3437aa3a4",
-    "6ab81d26-9084-4a8d-a360-5cebc8c54851"
+    "0ee7429c-8c3f-424a-adb1-8ff3437aa3a4"
   ]
 }
