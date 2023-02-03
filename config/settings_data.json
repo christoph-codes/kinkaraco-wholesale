@@ -1,6 +1,6 @@
 {
   "current": {
-    "colors_solid_button_labels": "#fff9f9",
+    "colors_solid_button_labels": "#f2ffe4",
     "colors_accent_1": "#3d290a",
     "gradient_accent_1": "",
     "colors_accent_2": "#ecc684",
@@ -9,7 +9,7 @@
     "colors_outline_button_labels": "#3d290a",
     "colors_background_1": "#fff",
     "gradient_background_1": "",
-    "colors_background_2": "#fff9f9",
+    "colors_background_2": "#f2ffe4",
     "gradient_background_2": "",
     "type_header_font": "amiri_n4",
     "heading_scale": 110,
@@ -126,8 +126,8 @@
         "settings": {
           "color_scheme": "background-1",
           "logo": "{{ shop.brand.logo }}",
-          "logo_width": 120,
-          "logo_position": "top-center",
+          "logo_width": 160,
+          "logo_position": "middle-left",
           "menu": "main-menu",
           "menu_type_desktop": "dropdown",
           "show_line_separator": false,
