@@ -46,4 +46,7 @@
 .header__icon.custom svg {
   width: 3rem !important;
 }
+h1, h2, h3, h4, h5, .h0, .h1, .h2, .h3, .h4, .h5 {
+  font-family: 'Cinzel Decorative', sans-serif !important;
+}
 /* END Custom TKC CSS */
