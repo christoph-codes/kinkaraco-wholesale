@@ -1,0 +1,49 @@
+/* Custom TKC CSS */
+.customer-home {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+}
+
+@media screen and (max-width: 750px) {
+  .customer-home {
+    flex-direction: column;
+  }
+}
+
+.customer-home h2,
+.customer-home h1 {
+  text-align: left;
+}
+
+.customer:not(.account):not(.order) {
+  margin: 3rem auto;
+  width: 100%;
+  padding: 0 1.5rem;
+}
+
+@media screen and (min-width: 750px) {
+  .customer:not(.account):not(.order) {
+    margin: 6rem auto 9rem;
+    width: 40%;
+  }
+}
+.customer form {
+  margin-top: 4rem;
+  text-align: center;
+}
+
+.header__icon.custom {
+  width: auto !important;
+  flex-direction: row-reverse !important;
+  display: flex;
+  align-items: center;
+  padding: 0 0.5rem;
+}
+.header__icon.custom span.label {
+  font-size: 1.5rem !important;
+}
+.header__icon.custom svg {
+  width: 3rem !important;
+}
+/* END Custom TKC CSS */
