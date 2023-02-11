@@ -490,7 +490,10 @@
       {%- endif -%}
     {%- endif -%}
 
+    <div class="header__nav">
+      <span><strong>(415) 874-9698</strong></span>
     <div class="header__icons">
+      
       <details-modal class="header__search">
         <details>
           <summary class="header__icon custom header__icon--search header__icon--summary link focus-inset modal__toggle" aria-haspopup="dialog" aria-label="{{ 'general.search.search' | t }}">
@@ -600,6 +603,8 @@
           </div>
         {%- endif -%}
       </a>
+                    
+                    </div>
     </div>
   </header>
 </{% if section.settings.enable_sticky_header %}sticky-header{% else %}div{% endif %}>
@@ -886,3 +891,5 @@
   ]
 }
 {% endschema %}
+
+                  
