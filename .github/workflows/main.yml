@@ -14,7 +14,7 @@ jobs:
     steps:
       - uses: actions/checkout@v1
       - name: Shopify
-        uses: pgrimaud/action-shopify@master
+        uses: pgrimaud/action-shopify@2.2.2
         env:
           SHOPIFY_PASSWORD: ${{ secrets.SHOPIFY_PASSWORD }}
           SHOPIFY_STORE_URL: kinkaracowholesale.myshopify.com
