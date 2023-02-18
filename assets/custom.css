@@ -78,4 +78,7 @@ h5,
   display: flex;
   justify-self: end;
 }
+.footer__copyright {
+  text-align: center !important;
+}
 /* END Custom TKC CSS */
